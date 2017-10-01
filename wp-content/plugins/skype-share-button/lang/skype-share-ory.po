@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "ସେଟିଂଗୁଡିକ"
+
+msgid "Skype share button"
+msgstr "Skype ଅଂଶୀଦାର ବଟନ୍"
+
+msgid "Skype share button options"
+msgstr "Skype ଅଂଶୀଦାର ବଟନ୍ ବିକଳ୍ପଗୁଡିକ"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Skypeରେ ଲୋକମାନେଙ୍କ ଅଂଶୀଦାର ଏବଂ ଆପଣଙ୍କ ଓ୍ୱେବସାଇଟ୍ ବିଷୟରେ କହୁଥିବା ପ୍ରାପ୍ତ କରନ୍ତୁ. ଆମେ ସିଧା Skype ଚାର୍ଟରେ, ଏହାକୁ ଦ୍ରୁତତ୍ତର ଏବଂ ଲୋକଙ୍କ ପାଇଁ ଆପଣଙ୍କ ସାଇଟରେ ବିଷୟବସ୍ତୁ ଅଂଶୀଦାର କରିବା ସହଜତର କରିଛୁ. ଏହା ଉଭୟ ଡେସ୍କଟପ୍ ଏବଂ ମୋବାଇଲ୍ ସାଇଟଗୁଡିକରେ ଅନୁମୋଦନ ଏବଂ ସମର୍ଥନ କରିବାକୁ ସହଜ ହେଇଥାଏ."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "ଅଧିକ ଜାଣନ୍ତୁ, <a href=\"%s\" target=\"_blank\">FAQ</a> ପରୀକ୍ଷିତ କରନ୍ତୁ."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "ଆପଣଙ୍କ ବ୍ୟବହାରର Skype ବଟନ୍ ବିକଳ୍ପ <a href=\"%s\" target=\"_blank\">Terms of Use</a>ର ଏକ ବିଷୟବସ୍ତୁ ହେଇଥାଏ."
+
+msgid "Enable share button"
+msgstr "ନିମ୍ନର ଅଂଶୀଦାର ସକ୍ଷମ କରନ୍ତୁ"
+
+msgid "Button style"
+msgstr "ନିମ୍ନର ଶୈଳୀ"
+
+msgid "Large Share"
+msgstr "ବୃହତ୍ ଅଂଶୀଦାର"
+
+msgid "Small Share"
+msgstr "ଛୋଟ ଅଂଶୀଦାର"
+
+msgid "Circle Icon"
+msgstr "ବୃତ୍ତ ଆଇକନ୍"
+
+msgid "Square Icon"
+msgstr "ବର୍ଗକ୍ଷେତ୍ର ଆଇକନ୍"
+
+msgid "Show share button at"
+msgstr "ରେ ଅଂଶୀଦାର ନିମ୍ନ ଦେଖାନ୍ତୁ"
+
+msgid "bottom of article"
+msgstr "ନିବନ୍ଧର ନିମ୍ନରେ"
+
+msgid "top of article"
+msgstr "ନିବନ୍ଧର ଶୀର୍ଷରେ"
+
+msgid "both bottom and top"
+msgstr "ଉଭୟ ନିମ୍ନ ଏବଂ ଶୀର୍ଷ"
+
+msgid "Share button language"
+msgstr "ନିମ୍ନର ଭାଷା ଅଂଶୀଦାର କରନ୍ତୁ"
+

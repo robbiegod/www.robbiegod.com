@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Nustatymai"
+
+msgid "Skype share button"
+msgstr "„Skype“ bendrinimo mygtukas"
+
+msgid "Skype share button options"
+msgstr "„Skype“ bendrinimo mygtuko parinktys"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Skatinkite žmones bendrinti jūsų svetainę ir apie ją kalbėtis „Skype“. Pasirūpinome, kad žmonės galėtų sparčiau ir lengviau bendrinti jūsų svetainės turinį tiesiai „Skype“ pokalbyje. Šią funkciją lengva integruoti ir ji palaiko tiek kompiuteriams, tiek mobiliesiems įrenginiams skirtas svetaines."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Norėdami sužinoti daugiau, skaitykite <a href=\"%s\" target=\"_blank\">DUK</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "„Skype“ mygtukų naudojimui galioja <a href=\"%s\" target=\"_blank\">naudojimo sąlygos</a>."
+
+msgid "Enable share button"
+msgstr "Įgalinti bendrinimo mygtuką"
+
+msgid "Button style"
+msgstr "Mygtuko stilius"
+
+msgid "Large Share"
+msgstr "Didelis mygtukas „Bendrinti“"
+
+msgid "Small Share"
+msgstr "Mažas mygtukas „Bendrinti“"
+
+msgid "Circle Icon"
+msgstr "Apskrita piktograma"
+
+msgid "Square Icon"
+msgstr "Kvadratinė piktograma"
+
+msgid "Show share button at"
+msgstr "Bendrinimo mygtuką rodyti"
+
+msgid "bottom of article"
+msgstr "straipsnio apačioje"
+
+msgid "top of article"
+msgstr "straipsnio viršuje"
+
+msgid "both bottom and top"
+msgstr "ir apačioje, ir viršuje"
+
+msgid "Share button language"
+msgstr "Bendrinimo mygtuko kalba"
+

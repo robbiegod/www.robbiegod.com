@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Ezarpenak"
+
+msgid "Skype share button"
+msgstr "Skype-ko partekatzeko botoia"
+
+msgid "Skype share button options"
+msgstr "Skype-ko partekatzeko botoiaren aukerak"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Eman jendeari zure Skype-ko webgunea partekatzeko eta hari buruz hitz egiteko aukera. Orain, are errazago eta azkarrago partekatuko dute erabiltzaileek zure guneko edukia, Skype-ko txatetik zuzenean. Erraza da barneratzea, bai ordenagailurako bai mugikorrerako guneetan."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Lortu informazio gehiago <a href=\"%s\" target=\"_blank\">FAQ</a> atalean."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "<a href=\"%s\" target=\"_blank\">Erabiltzeko baldintzen</a> mendekoa da Skype-ko botoien erabilera."
+
+msgid "Enable share button"
+msgstr "Gaitu partekatzeko botoia"
+
+msgid "Button style"
+msgstr "Botoiaren estiloa"
+
+msgid "Large Share"
+msgstr "Partekatzeko botoi handia"
+
+msgid "Small Share"
+msgstr "Partekatzeko botoi txikia"
+
+msgid "Circle Icon"
+msgstr "Ikono biribila"
+
+msgid "Square Icon"
+msgstr "Ikono karratua"
+
+msgid "Show share button at"
+msgstr "Erakutsi partekatzeko botoia"
+
+msgid "bottom of article"
+msgstr "artikuluaren amaieran"
+
+msgid "top of article"
+msgstr "artikuluaren hasieran"
+
+msgid "both bottom and top"
+msgstr "hasieran eta amaieran"
+
+msgid "Share button language"
+msgstr "Partekatzeko botoiaren hizkuntza"
+

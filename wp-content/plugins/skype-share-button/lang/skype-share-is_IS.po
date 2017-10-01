@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Stillingar"
+
+msgid "Skype share button"
+msgstr "Deilingarhnappur Skype"
+
+msgid "Skype share button options"
+msgstr "Valkostir deilingarhnapps Skype"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Fáðu fólk til að deila vefsvæði þínu og tala um það á Skype. Við höfum gert það fljótlegra og auðveldara fyrir fólk að deila efni beint af síðunni þinni í Skype spjalli. Samþætting er auðveld og stutt er við svæði fyrir tölvur og fartæki."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Frekari upplýsingar, athugaðu <a href=\"%s\" target=\"_blank\">algengar spurningar</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Notkun þín á Skype hnöppum er háð <a href=\"%s\" target=\"_blank\">notkunarskilmálunum</a>."
+
+msgid "Enable share button"
+msgstr "Virkja deilingarhnapp"
+
+msgid "Button style"
+msgstr "Stíll hnapps"
+
+msgid "Large Share"
+msgstr "Stór deiling"
+
+msgid "Small Share"
+msgstr "Lítil deiling"
+
+msgid "Circle Icon"
+msgstr "Hringtákn"
+
+msgid "Square Icon"
+msgstr "Ferhyrnt tákn"
+
+msgid "Show share button at"
+msgstr "Sýna deilingarhnapp á"
+
+msgid "bottom of article"
+msgstr "neðst í grein"
+
+msgid "top of article"
+msgstr "efst í grein"
+
+msgid "both bottom and top"
+msgstr "bæði neðst og efst"
+
+msgid "Share button language"
+msgstr "Tungumál deilingarhnapps"
+

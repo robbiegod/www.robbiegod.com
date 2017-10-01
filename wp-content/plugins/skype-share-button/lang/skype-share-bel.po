@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Налады"
+
+msgid "Skype share button"
+msgstr "Кнопка \"Падзяліцца\" у Skype"
+
+msgid "Skype share button options"
+msgstr "Параметры кнопкі \"Падзяліцца\" у Skype"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Няхай людзі дзеляцца вашым вэб-сайтам і гавораць пра яго на Skype. Мы палегчылі і паскорылі магчымасць дзяліцца змесцівам з вашага сайта, проста ў чат Skype. Зараз проста інтэгрыраваць і падтрымліваць як мабільныя, так і класічныя сайты."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Даведайцеся больш, паглядзіце <a href=\"%s\" target=\"_blank\">Частыя пытанні</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Вашае карыстанне кнопкамі Skype рэгулюецца <a href=\"%s\" target=\"_blank\">Умовамі выкарыстання</a>."
+
+msgid "Enable share button"
+msgstr "Уключыць кнопку \"Падзяліцца\""
+
+msgid "Button style"
+msgstr "Стыль кнопкі"
+
+msgid "Large Share"
+msgstr "Вялікая доля"
+
+msgid "Small Share"
+msgstr "Малая доля"
+
+msgid "Circle Icon"
+msgstr "Круглы значок"
+
+msgid "Square Icon"
+msgstr "Квадратны значок"
+
+msgid "Show share button at"
+msgstr "Паказаць кнопку \"Падзяліцца\" у"
+
+msgid "bottom of article"
+msgstr "ніз артыкула"
+
+msgid "top of article"
+msgstr "верх артыкула"
+
+msgid "both bottom and top"
+msgstr "і верх, і ніз"
+
+msgid "Share button language"
+msgstr "Мова кнопкі \"Падзяліцца\""
+

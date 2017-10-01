@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Sozlamalar"
+
+msgid "Skype share button"
+msgstr "Skype almashish tugmasi"
+
+msgid "Skype share button options"
+msgstr "Skype almashish tugmalarining opsiyalari"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Veb saytingiz haqida odamlar Skype-da almashsin va gaplashishsin. Biz saytingizdan kontentni bevosita Skype chatiga odamlar uchun almashishni tezroq va qulayroq qildik. U ham ish stoli, ham mobil saytlarini integratsiya qiladi va qo'llab quvvatlaydi."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Ko'proq bilib olish, <a href=\"%s\" target=\"_blank\">TTBS</a>-ni tekshiring."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Sizning Skype tugmalaridan foydalanishingiz <a href=\"%s\" target=\"_blank\">Foydalanish shartlariga</a> muvofiq boshqariladi."
+
+msgid "Enable share button"
+msgstr "Almashish tugmasini yoqib qo'yish"
+
+msgid "Button style"
+msgstr "Tugma uslubi"
+
+msgid "Large Share"
+msgstr "Katta almashish"
+
+msgid "Small Share"
+msgstr "Kichik almashish"
+
+msgid "Circle Icon"
+msgstr "Doira tasvirchasi"
+
+msgid "Square Icon"
+msgstr "To'rt burchak tasvircha"
+
+msgid "Show share button at"
+msgstr "Almashish tugmasini shunda ko'rsatish"
+
+msgid "bottom of article"
+msgstr "maqola ostida"
+
+msgid "top of article"
+msgstr "maqola tepasida"
+
+msgid "both bottom and top"
+msgstr "ikkalasini pastda va tepada"
+
+msgid "Share button language"
+msgstr "Almashish tugmasining tili"
+

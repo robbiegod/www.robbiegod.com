@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Mipangilio"
+
+msgid "Skype share button"
+msgstr "Kitufe cha kushiriki cha Skype"
+
+msgid "Skype share button options"
+msgstr "Chaguo za kitufe cha kushiriki cha Skype"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Ruhusu watu kushiriki na kuzungumza kuhusu tovuti yako kwenye Skype. Tumeifanya haraka na rahisi kwa watu kushiriki maudhui kutoka kwenye tovuti yako, moja kwa moja hadi kwenye gumzo ya Skype. Ni rahisi kuunganisha na huauni tovuti za eneo kazi na simu."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Jifunze zaidi, angalia <a href=\"%s\" target=\"_blank\">FAQ</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Matumizi yako ya vitufe vya Skype yanazingatia <a href=\"%s\" target=\"_blank\">Masharti ya Matumizi</a>."
+
+msgid "Enable share button"
+msgstr "Wezesha kitufe cha kushiriki"
+
+msgid "Button style"
+msgstr "Mtindo wa chini"
+
+msgid "Large Share"
+msgstr "Kushiriki kwa Ukubwa"
+
+msgid "Small Share"
+msgstr "Kushiriki kwa Udogo"
+
+msgid "Circle Icon"
+msgstr "Ikoni ya Duara"
+
+msgid "Square Icon"
+msgstr "Ikoni ya Mraba"
+
+msgid "Show share button at"
+msgstr "Onyesha kitufe cha kushiriki katika"
+
+msgid "bottom of article"
+msgstr "upande wa chini ya nakala"
+
+msgid "top of article"
+msgstr "upande wa juu ya nakala"
+
+msgid "both bottom and top"
+msgstr "upande wa juu na chini"
+
+msgid "Share button language"
+msgstr "Lugha ya kitufe cha kushiriki"
+

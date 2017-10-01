@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "設定"
+
+msgid "Skype share button"
+msgstr "Skype 分享按鈕"
+
+msgid "Skype share button options"
+msgstr "Skype 分享按鈕選項"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "讓大家開始在 Skype 上分享及談論您的網站。現在起，任何人都可以利用更加簡單快速的方式，將您的網站內容直接分享到 Skype 聊天中。無論是桌面版或是行動版網站都能支援，輕易整合此功能。"
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "如需深入瞭解，請參閱<a href=\"%s\" target=\"_blank\">常見問題集</a>。"
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Skype 按鈕的使用方式需遵守<a href=\"%s\" target=\"_blank\">使用條款</a>。"
+
+msgid "Enable share button"
+msgstr "啟用分享按鈕"
+
+msgid "Button style"
+msgstr "按鈕樣式"
+
+msgid "Large Share"
+msgstr "大分享按鈕"
+
+msgid "Small Share"
+msgstr "小分享按鈕"
+
+msgid "Circle Icon"
+msgstr "圓形圖示"
+
+msgid "Square Icon"
+msgstr "方形圖示"
+
+msgid "Show share button at"
+msgstr "分享按鈕顯示於"
+
+msgid "bottom of article"
+msgstr "文章底部"
+
+msgid "top of article"
+msgstr "文章頂端"
+
+msgid "both bottom and top"
+msgstr "頂端及底部"
+
+msgid "Share button language"
+msgstr "分享按鈕語言"
+

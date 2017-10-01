@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Gosodiadau"
+
+msgid "Skype share button"
+msgstr "Botwm rhannu Skype"
+
+msgid "Skype share button options"
+msgstr "Dewisiadau botwm rhannu Skype"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Ceisiwch annog pobl i rannu a siarad am eich gwefan ar Skype. Rydyn ni wedi symleiddio'r broses o rannu cynnwys o'ch safle yn syth i sgwrs Skype. Gallwch chi ei integreiddio'n rhwydd ac mae'n gweithio ar safleoedd bwrdd gwaith a symudol."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "I ddysgu mwy, ewch i'r <a href=\"%s\" target=\"_blank\">Cwestiynau Cyffredin</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Mae'r <a href=\"%s\" target=\"_blank\">Telerau Defnyddio</a> yn rheoli eich defnydd o'r botymau Skype."
+
+msgid "Enable share button"
+msgstr "Galluogi'r botwm rhannu"
+
+msgid "Button style"
+msgstr "Arddull y botwm"
+
+msgid "Large Share"
+msgstr "Botwm Rhannu Mawr"
+
+msgid "Small Share"
+msgstr "Botwm Rhannu Bach"
+
+msgid "Circle Icon"
+msgstr "Eicon Cylch"
+
+msgid "Square Icon"
+msgstr "Eicon Sgwâr"
+
+msgid "Show share button at"
+msgstr "Dangos y botwm rhannu"
+
+msgid "bottom of article"
+msgstr "ar waelod yr erthygl"
+
+msgid "top of article"
+msgstr "ar frig yr erthygl"
+
+msgid "both bottom and top"
+msgstr "ar y gwaelod ac ar y brig"
+
+msgid "Share button language"
+msgstr "Iaith y botwm rhannu"
+

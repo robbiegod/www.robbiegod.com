@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "הגדרות"
+
+msgid "Skype share button"
+msgstr "לחצן שיתוף של Skype"
+
+msgid "Skype share button options"
+msgstr "אפשרויות לחצן שיתוף של Skype"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "גרום לאנשים לשתף את אתר האינטרנט שלך ולדבר עליו ב- Skype. אנו מאפשרים לאנשים לשתף תוכן מהאתר שלך בצורה מהירה יותר וקלה יותר, ישירות בצ'אט של Skype. אפשרות זו היא קלה לשילוב ותומכת הן באתרים המותאמים למחשבים שולחניים והן באתרים המותאמים למכשירים ניידים."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "קבל מידע נוסף. עיין ב<a href=\"%s\" target=\"_blank\">שאלות הנפוצות</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "השימוש שלך בלחצני Skype כפוף ל<a href=\"%s\" target=\"_blank\">תנאי השימוש</a>."
+
+msgid "Enable share button"
+msgstr "הפוך לחצן שיתוף לזמין"
+
+msgid "Button style"
+msgstr "סגנון לחצן"
+
+msgid "Large Share"
+msgstr "שיתוף - גדול"
+
+msgid "Small Share"
+msgstr "שיתוף - קטן"
+
+msgid "Circle Icon"
+msgstr "סמל עגול"
+
+msgid "Square Icon"
+msgstr "סמל ריבועי"
+
+msgid "Show share button at"
+msgstr "הצג לחצן שיתוף ב:"
+
+msgid "bottom of article"
+msgstr "תחתית המאמר"
+
+msgid "top of article"
+msgstr "ראש המאמר"
+
+msgid "both bottom and top"
+msgstr "תחתית וראש המאמר"
+
+msgid "Share button language"
+msgstr "שפת לחצן שיתוף"
+

@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "설정"
+
+msgid "Skype share button"
+msgstr "Skype 공유 단추"
+
+msgid "Skype share button options"
+msgstr "Skype 공유 단추 옵션"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Skype에서 사람들이 회원님의 웹 사이트를 공유하고 화제거리로 삼도록 해보세요. 다른 사람들이 회원님의 사이트에서 콘텐츠를 빠르고 쉽게 공유하여 Skype 채팅으로 바로 가져올 수 있습니다. 데스크톱 및 모바일 사이트를 모두 쉽게 통합하고 지원합니다."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "자세한 내용은 <a href=\"%s\" target=\"_blank\">FAQ</a>에서 확인하세요."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Skype 단추의 사용은 <a href=\"%s\" target=\"_blank\">사용 약관</a>의 적용을 받습니다."
+
+msgid "Enable share button"
+msgstr "공유 활성화 단추"
+
+msgid "Button style"
+msgstr "단추 스타일"
+
+msgid "Large Share"
+msgstr "큰 공유 아이콘"
+
+msgid "Small Share"
+msgstr "작은 공유 아이콘"
+
+msgid "Circle Icon"
+msgstr "원형 아이콘"
+
+msgid "Square Icon"
+msgstr "사각형 아이콘"
+
+msgid "Show share button at"
+msgstr "공유 단추 표시 위치:"
+
+msgid "bottom of article"
+msgstr "문서의 아래쪽"
+
+msgid "top of article"
+msgstr "문서의 위쪽"
+
+msgid "both bottom and top"
+msgstr "아래쪽과 위쪽 모두"
+
+msgid "Share button language"
+msgstr "공유 단추 언어"
+

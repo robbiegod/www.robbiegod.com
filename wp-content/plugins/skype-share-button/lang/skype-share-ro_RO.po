@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Setări"
+
+msgid "Skype share button"
+msgstr "Buton Partajare pe Skype"
+
+msgid "Skype share button options"
+msgstr "Opțiuni buton Partajare pe Skype"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Determinați oamenii să vorbească despre și să partajeze conținutul site-ului dumneavoastră web pe Skype. Acum este mai simplu și mai rapid ca oamenii să partajeze conținut de pe site direct într-un chat Skype. Este simplu de integrat și sunt acceptate atât site-uri în versiune desktop, cât și site-uri în versiune pentru mobil."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Aflați mai multe, consultați <a href=\"%s\" target=\"_blank\">Întrebări frecvente</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Utilizarea de către dumneavoastră a butoanelor Skype este supusă <a href=\"%s\" target=\"_blank\">Termenilor de utilizare</a>."
+
+msgid "Enable share button"
+msgstr "Activare buton Partajare"
+
+msgid "Button style"
+msgstr "Stilul Butonului"
+
+msgid "Large Share"
+msgstr "Buton Partajare mare"
+
+msgid "Small Share"
+msgstr "Buton Partajare mic"
+
+msgid "Circle Icon"
+msgstr "Pictograma cerc"
+
+msgid "Square Icon"
+msgstr "Pictograma pătrat"
+
+msgid "Show share button at"
+msgstr "Afișare buton Partajare"
+
+msgid "bottom of article"
+msgstr "la partea de jos a articolului"
+
+msgid "top of article"
+msgstr "la partea de sus a articolului"
+
+msgid "both bottom and top"
+msgstr "la partea de jos și la partea de sus"
+
+msgid "Share button language"
+msgstr "Limba butonului Partajare"
+

@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "ቅንብሮች"
+
+msgid "Skype share button"
+msgstr "Skype አጋራ አዝራር"
+
+msgid "Skype share button options"
+msgstr "Skype አጋራ አዝራር አማራጮች"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "በ Skype ላይ የእርስዎን ድር ጣቢያ የሚያጋሩ እና ሰለሱ የሚያወሩ ሰዎችን ያግኙ፡፡ ከእርስዎ ጣቢያ በቀጥታ ወደ Skype ውይይት ይዘትን ለሚያጋሩ ሰዎች ፈጣን እና ቀላል አድርገናል፡፡ ማቀናቱ ቀላል ነው እና ሁለቱንም ዴስክቶፕ እና ሞባይል ጣቢያዎችን ይደግፋል፡፡"
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "ተጨማሪ ይወቁ the <a href=\"%s\" target=\"_blank\">FAQ</a> ይፈትሹ፡፡"
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "የእርስዎ Skype አዝራሮች አጠቃቀም <a href=\"%s\" target=\"_blank\">የአጠቃቀም ውል</a> ይመለከተዋል፡፡"
+
+msgid "Enable share button"
+msgstr "መጋራ አዝራር አንቃ"
+
+msgid "Button style"
+msgstr "አዝራር ቅጥ"
+
+msgid "Large Share"
+msgstr "ትልቅ መጋራት"
+
+msgid "Small Share"
+msgstr "ትንሽ መጋራት"
+
+msgid "Circle Icon"
+msgstr "ክብ አዶ"
+
+msgid "Square Icon"
+msgstr "ስኩዌር አዶ"
+
+msgid "Show share button at"
+msgstr "አጋራ አዛራር በሚከተለው ላይ አሳይ"
+
+msgid "bottom of article"
+msgstr "የጹሁፍ መጨረሻ"
+
+msgid "top of article"
+msgstr "የጹሁፍ አናት"
+
+msgid "both bottom and top"
+msgstr "ሁለቱም ወለል እና አናት"
+
+msgid "Share button language"
+msgstr "አዝራር ቁልፍ አጋራ"
+

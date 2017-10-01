@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Ustawienia"
+
+msgid "Skype share button"
+msgstr "Przycisk udostępniania przez Skype'a"
+
+msgid "Skype share button options"
+msgstr "Opcje przycisku udostępniania przez Skype'a"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Spraw, by ludzie udostępniali zawartość twojej witryny internetowej i dyskutowali o niej przez Skype'a. Teraz mogą robić to w szybszy i prostszy sposób — wprost z okna czatu w Skypie. Funkcję tę można łatwo dodać do witryny a ponadto jest ona dostępna zarówno dla witryn przeznaczonych do przeglądania na komputerach, jak i na urządzeniach przenośnych."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Dowiedz się więcej. Zapoznaj się z <a href=\"%s\" target=\"_blank\">często zadawanymi pytaniami</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Korzystanie z przycisków Skype'a podlega <a href=\"%s\" target=\"_blank\">Regulaminowi użytkowania</a>."
+
+msgid "Enable share button"
+msgstr "Włącz przycisk udostępniania"
+
+msgid "Button style"
+msgstr "Styl przycisku"
+
+msgid "Large Share"
+msgstr "Duży przycisk"
+
+msgid "Small Share"
+msgstr "Mały przycisk"
+
+msgid "Circle Icon"
+msgstr "Okrągła ikona"
+
+msgid "Square Icon"
+msgstr "Kwadratowa ikona"
+
+msgid "Show share button at"
+msgstr "Pokaż przycisk udostępniania"
+
+msgid "bottom of article"
+msgstr "na dole artykułu"
+
+msgid "top of article"
+msgstr "na górze artykułu"
+
+msgid "both bottom and top"
+msgstr "na dole i na górze"
+
+msgid "Share button language"
+msgstr "Język przycisku udostępniania"
+
