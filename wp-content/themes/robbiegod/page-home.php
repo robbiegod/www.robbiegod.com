@@ -35,7 +35,7 @@ get_header(); ?>
 
 	<div class="col three">
     	<div class="padding-ten">
-       		
+       		<p>I'm testing the automatic publishing from Github.</p>
         </div>
 	</div><!-- col two -->
     
