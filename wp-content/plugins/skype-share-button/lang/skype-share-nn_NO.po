@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Innstillingar"
+
+msgid "Skype share button"
+msgstr "Deleknapp for Skype"
+
+msgid "Skype share button options"
+msgstr "Alternativ for deleknapp for Skype"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Få personar til å dele og snakke om nettstaden din på Skype. Vi har gjort det raskare og enklare å dele innhald frå nettstaden din i ein Skype-chat. Det er enkelt å integrere og støttar både skrivebordsbaserte og mobiltilpassa nettstader."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Se <a href=\"%s\" target=\"_blank\">vanlege spørsmål</a> dersom du vil finne ut meir."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Bruken din av Skype-knappar er underlagd <a href=\"%s\" target=\"_blank\">vilkåra for bruk</a>."
+
+msgid "Enable share button"
+msgstr "Aktiver deleknapp"
+
+msgid "Button style"
+msgstr "Knappestil"
+
+msgid "Large Share"
+msgstr "Stor knapp"
+
+msgid "Small Share"
+msgstr "Liten knapp"
+
+msgid "Circle Icon"
+msgstr "Sirkelikon"
+
+msgid "Square Icon"
+msgstr "Firkanta ikon"
+
+msgid "Show share button at"
+msgstr "Vis deleknappen"
+
+msgid "bottom of article"
+msgstr "nedst i artikkelen"
+
+msgid "top of article"
+msgstr "øvst i artikkelen"
+
+msgid "both bottom and top"
+msgstr "både øvst og nedst"
+
+msgid "Share button language"
+msgstr "Språk for deleknapp"
+

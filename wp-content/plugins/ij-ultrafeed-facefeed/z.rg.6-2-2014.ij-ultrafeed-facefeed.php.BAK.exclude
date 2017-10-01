@@ -1,0 +1,345 @@
+<?php session_start(); ?>
+<?php 
+/*
+	Plugin Name: IJ UltraFeed FaceFeed
+	Plugin URI: http://www.cdnmediahub.com/plugins/ij-ultrafeed-facefeed/
+	Description: Plugin for importing facebook posts from your personal feed to UltraFeed and displaying them on your Wordpress website. A Facebook app is required.
+	Author: Rob Fletcher
+	Version: 0.1.4
+	Author URI: http://www.crosbymarketing.com/
+	Last Updated: August 28, 2013
+	
+/* IJ UltraFeed FaceFeed TO DO LIST
+1. build the initial version
+2. Add uninstall hook
+
+
+/*
+Plugin Update Log
+
+0.1.4 - dec 27, 2013 - changed method to use FQL type query
+0.1.3 - dec 19, 2013 - fixed the blank message index by doing a check for blanks and taking the description value if message is blank.
+0.1.2 - dec 19, 2013 - changed the post type check to be more specific so i can get my status updates.
+0.1.1 - dec 19, 2013 - initial version of the fb plugin is complete.
+0.1.0 - dec 19, 2013 - fixed bug issues with the import process; adding missing value for status.
+0.0.9 - dec 19, 2013 - added session_start() as the first line of the plugin, this removed the errors i was getting; now i'm getting new errors.
+0.0.8 - dec 19, 2013 - switch to facebook php sdk from github; added session_start().
+0.0.7 - dec 13, 2013 - update class name to WP_Facebook.
+0.0.6 - dec 13, 2013 - installed the wordpress facebook plugin; changed to facebook-php-sdk for wordpress from fb plugin;
+0.0.5 - dec 12, 2013 - bug fixes; line 172 & 219.
+0.0.4 - dec 11, 2013 - minor bug fix; changed updater function in the includes plugin-updater file.
+0.0.3 - dec 11, 2013 - minor bug fix; changed updater function name.
+0.0.2 - dec 11, 2013 - beta plugin completed; removed authorID from activation because its added in the ultrafeed plugin; clean up.
+0.0.1 - dec 10, 2013 - plugin file created.
+
+*/
+?>
+<?php
+////////////////////////////////////////////////////////////////////
+///////// Function to update the plugins    ////////////////////////
+////////////////////////////////////////////////////////////////////
+/* hook updater to init */
+add_action( 'init', 'ij_ultrafeed_facefeed_updater_init' );
+
+/**
+ * Load and Activate Plugin Updater Class.
+ */
+function ij_ultrafeed_facefeed_updater_init() {
+
+    /* Load Plugin Updater */
+    require_once( trailingslashit( plugin_dir_path( __FILE__ ) ) . 'includes/plugin-updater.php' );
+
+    /* Updater Config */
+    $config = array(
+        'base'      => plugin_basename( __FILE__ ), //required
+        'dashboard' => false,
+        'username'  => false,
+        'key'       => '',
+        'repo_uri'  => 'http://www.cdnmediahub.com/',
+        'repo_slug' => 'ij-ultrafeed-facefeed',
+    );
+
+    /* Load Updater Class */
+    new IJ_Ultrafeed_Facefeed_Plugin_Updater( $config );
+}
+////////////////////////////////////////////////////////////////////
+///////////// END OF PLUGIN UPDATE SCRIPT  /////////////////////////
+////////////////////////////////////////////////////////////////////
+
+// why do i have to include this? docs say if i am in admin this is already loaded? 
+include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+
+
+////////////////////////
+/// START OF PLUGIN  ///
+////////////////////////
+
+// check for ij_ultrafeed
+if (is_plugin_active('ij-ultrafeed/ij-ultrafeed.php')) {
+	
+	// register the plugin activation/deactivation hooks
+	// but only if the ultrafeed plugin is installed.
+	register_activation_hook( __FILE__, 'ijfacefeed_activate' );
+	register_deactivation_hook( __FILE__, 'ijfacefeed_deactivate' );
+	
+	
+} else {
+
+	function ijultrafeed_not_installed(){
+			echo '<div class="error"><p>WARNING: Before you can proceed, please install IJ UltraFeed.</p></div>';
+		}
+	add_action('admin_notices', 'ijultrafeed_not_installed');
+	
+}
+
+// schedule the event and run the manupdate function
+// sync_files_hook is the trigger.
+// quarthour is the custom interval i added above
+// ijultrafeed_get_tweet_feed is the function that I want to run every 15mins
+// This code should run the function every 15minutes once it is set.
+add_action('sync_files_hook', 'ijultrafeed_get_facefeed');
+if( !wp_next_scheduled( 'sync_files_hook' ) ) {
+	wp_schedule_event(time(), '15minutes', 'sync_files_hook');
+}
+
+// Now if the pass checks out ok, then run the activation function and let's this train rolling.
+// ACTIVATE / DEACTIVATE FUNCTIONS
+function ijfacefeed_activate() {
+	
+	// admin notice on activation
+	add_action( 'admin_notices', 'ij_ultrafeed_tweets_activation_note' );
+		
+  // Set the default options. We will later add a panel to wordpress that will allow to change these values
+  add_option("ij_facefeed_app_id", "Facebook App ID");
+  add_option("ij_facefeed_secret_key", "Facebook Secret Key"); 
+  add_option("ij_facefeed_fbusername", "Facebook Username");
+	
+	
+} // end activate function
+
+function ijfacefeed_deactivate() {
+	// clean up the default options   
+	delete_option("ij_facefeed_app_id");
+	delete_option("ij_facefeed_secret_key"); 
+	delete_option("ij_facefeed_fbusername"); 
+
+}
+
+// SETUP ADMIN PANEL
+add_action('admin_menu', 'ijultrafeed_admin_submenu_facefeed', 11);
+function ijultrafeed_admin_submenu_facefeed() {
+
+	add_submenu_page( 'ijultrafeed-admin-options', 'Facefeed Get Feed', 'Facefeed Get Feed', 'manage_options', 'ijultrafeed-get-facefeed', 'ijultrafeed_get_facefeed');
+}
+
+
+// import the feed function
+function ijultrafeed_get_facefeed() {
+	
+	global $title;
+	global $wpdb;
+
+	// Let's first check to make sure our Twitter API values are setup correctly.  We will do this by checking that the values are not the defaults.
+	$ijFaceFeedAppID = get_option('ij_facefeed_app_id');
+	$ijFaceFeedSecretKey = get_option('ij_facefeed_secret_key');
+	$ijFaceFeedUser = get_option('ij_facefeed_fbusername');
+	$ijAuthorID = get_option('ij_authorID');
+	
+	
+if($ijFaceFeedAppID === "Facebook App ID" || $ijFaceFeedSecretKey === "Facebook Secret Key" || $ijFaceFeedUser === "Facebook Username" || $ijFaceFeedAppID == "" || $ijFaceFeedSecretKey == "" || $ijFaceFeedUser == "") {
+	
+// Facebook app admin warning
+echo '<div class="error"><p>WARNING: You must set up a Facebook App and obtain the Facebook App ID, Secret Key, and the Facebook Username for this plugin to work. Visit the IJ Ultrafeed Setting panel and fill in the details.</p></div>';
+
+
+} else {
+	
+
+	
+echo "<h2>".$title."</h2>";
+
+// FACEBOOK PHP SDK
+/**
+ * Copyright 2011 Facebook, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may
+ * not use this file except in compliance with the License. You may obtain
+ * a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ */
+// require fb sdk; this is the facebook php sdk from github
+include('facebook-php-sdk/src/facebook.php');
+
+global $facebook;
+
+// This page shows what column names are in the status
+// https://developers.facebook.com/docs/reference/fql/status/
+
+// Queries
+// SELECT uid,name FROM user WHERE uid = me() // works
+
+
+// Create our Application instance (replace this with your appId and secret).
+$fb_config = array(
+  'appId'  => $ijFaceFeedAppID,
+  'secret' => $ijFaceFeedSecretKey,
+	'fileUpload' => false,
+	'allowSignedRequest' => false,
+	'cookie' => true
+);
+
+// get feed
+$facebook = new Facebook($fb_config);
+
+$user = $facebook->getUser();
+$me = null;
+
+if($user)
+{
+    try
+    {
+         $me = $facebook->api('/me');
+    }
+    catch(FacebookApiException $e)
+    {
+        echo $e->getMessage();
+    }
+}
+
+if($me)
+{
+    $logoutUrl = $facebook->getLogoutUrl();
+    echo "Logout";
+		
+} else {
+    // get / set the accesstoken
+		$access_token = $facebook->getAccessToken();
+    $facebook->setAccessToken($access_token);
+		
+		//as the facebook php sdk version is 3 so there is some change for permissions
+    // If you want to add permission for read_streams so that pass array with login url
+    $params = array('scope'=>'read_stream');
+		
+    $loginUrl = $facebook->getLoginUrl($params);
+		echo "Login URL: <a href='".$loginUrl."'>Login</a>";
+}
+
+// Set the fql query
+// fqL query - gets full stream: select message FROM stream WHERE filter_key = 'owner'
+// This one is incomplete...SELECT object_id, post_id,object_type FROM like WHERE user_id = me() -- its giving me something but i need to connect it to the status table? 
+
+$fql = "SELECT comment_info,like_info,message,place_id,source,status_id,time,uid FROM status WHERE uid = me()";
+
+// using FQL to get status messages
+$page_feed = $facebook->api(
+	array(
+	'method' => 'fql.query',
+	'query' => $fql
+	)
+);
+
+echo "<hr>";
+var_dump($page_feed);
+echo "<hr>";
+
+// LINKIFY DESCRIPTION / HASH TAGS / USERNAMES
+function linkify_status($status_text)
+{
+  // linkify URLs
+  $status_text = preg_replace(
+    '/(https?:\/\/\S+)/',
+    '&lt;a target="_blank" href="\1"&gt;\1&lt;/a&gt;',
+    $status_text
+  );
+
+  // linkify users
+  $status_text = preg_replace(
+    '/(^|\s)@(\w+)/',
+    '\1@&lt;a target="_blank" href="https://www.facebook.com/\2"&gt;\2&lt;/a&gt;',
+    $status_text
+  );
+
+  // linkify tags
+  $status_text = preg_replace(
+    '/(^|\s)#(\w+)/',
+    '\1#&lt;a target="_blank" href="https://www.facebook.com/hashtag/\2"&gt;\2&lt;/a&gt;',
+    $status_text
+  );
+
+  return $status_text;
+}
+
+
+// READY TO IMPORT TO ULTRAFEED
+
+// set the temp table name
+$tablename = $wpdb->prefix . "ijultrafeed";
+
+foreach($page_feed as $post) {
+	
+	if( ($post['message'] != '' ) ) {
+	
+		// set the status text because facebook sometimes has the message field blank. In this case, we will take the description field.
+		if(!empty($post['uid'])) { $fbid = $post['uid']; }
+		if(!empty($post['message'])) { $status_text = $post['message'];  }
+		if(!empty($post['time'])) { $fbtime = $post['time']; }
+		if(!empty($post['status_id'])) { $fbstatusid = $post['status_id']; }
+		
+		$current_user = wp_get_current_user();
+		
+		$ijID = ""; // just leave this blank always
+		$tAuthor = $ijAuthorID; // old: $current_user->ID; // Let's see if this works.
+		$tPubDate = date("Y-m-d  H:i:s", strtotime($fbtime)); // date article was published -> post_date, post_date_gmt
+		$tDescription = htmlSpecialChars(html_entity_decode(linkify_status($status_text)));; // main tweet text filtered to link all stuff (found this code)
+		$tTitle = "Facebook-".$fbstatusid; // the title, which for our purposes is not needed, just needs to be unique
+		$tMedia = "none";
+		$tMediaType = 'status';
+		$tUsername = 'RobbieGod';
+		$tSlug = "facebook-".$fbstatusid;  // this is the slug - this must be unique
+		$tPostType = "Facebook";
+		$tImported = 2;	
+		$tUKID = $fbstatusid; // remove the underscore from the id so we just have a number
+		$tStatus = "Published";
+	
+		// Prepare query always.
+    $sql = $wpdb->prepare("INSERT INTO $tablename (`ijAuthorID`, `ijDate`, `ijDescription`, `ijTitle`, `ijMedia`, `ijMediaType`, `ijUsername`, `ijSlug`, `ijPostType`, `ijImported`, `ijUKID`, `ijStatus`) VALUES (%d, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s) ON DUPLICATE KEY UPDATE ijImported = 1", 
+		$tAuthor, $tPubDate, $tDescription, $tTitle, $tMedia, $tMediaType, $tUsername, $tSlug, $tPostType, $tImported, $tUKID, $tStatus);
+
+    // Execute query
+    $wpdb->query($sql);
+		
+	}
+}
+
+// SHOW A MESSAGE IF NOTHING IS IMPORTED or IF SOMETHING IS IMPORTED
+	if($wpdb->insert_id != "0") {
+		// you know we thought we were going to import these into wordpress pots, but realized we have more control if we keep our own table.  So, we are just going to build it that way.  We will maintain our own table.
+
+		echo "<h2>Congratulations!</h2>";
+		echo "<p>It seems everything has gone smooth.  You are ready to add your shortcode to your website to display the feed.</p>";
+		
+	} else {
+
+		echo "<h2>All hope might not be lost...</h2>";
+		echo "<p>Either there was a problem or you don't have any new items to import. Let's hope for the latter. Check the View Feed panel to verify your posts were imported.  If you havent posted anything new since the last time we ran this operation, well then there is nothing new to import.</p>";
+	
+	}
+$wpdb->flush(); // cleanup
+
+
+
+
+}
+	
+} // close primary function
+
+
+// ### end of the plugin ### //
+?>

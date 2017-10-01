@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "సెట్టింగ్‌లు"
+
+msgid "Skype share button"
+msgstr "Skype భాగస్వామ్య బటన్"
+
+msgid "Skype share button options"
+msgstr "Skype భాగస్వామ్య బటన్ ఎంపికలు"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Skypeలో మీ వెబ్‌సైట్‌ని భాగస్వామ్యం చేసే మరియు దాని గురించి మాట్లాడే వ్యక్తుల గురించి తెలుసుకోండి. మేము వ్యక్తులు మీ సైట్ నుండి నేరుగా Skype చాట్‌కు కంటెంట్‌ని భాగస్వామ్యం చేయడానికి దీన్ని వేగవంతంగా మరియు సులభంగా చేసాము. దీన్ని ఏకీకృతం చేయడం సులభం మరియు డెస్క్‌టాప్ మరియు మొబైల్ సైట్‌లు రెండింటికీ మద్దతుని కలిగి ఉంటుంది."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "మరింత తెలుసుకోండి, <a href=\"%s\" target=\"_blank\">తరచుగా అడిగే ప్రశ్నలు</a> తనిఖీ చేయండి."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "మీ Skype బటన్‌ల ఉపయోగం అనేది <a href=\"%s\" target=\"_blank\">ఉపయోగ నిబంధనల</a>కు సంబంధించినది."
+
+msgid "Enable share button"
+msgstr "భాగస్వామ్య బటన్‌ని ప్రారంభించు"
+
+msgid "Button style"
+msgstr "బటన్ శైలి"
+
+msgid "Large Share"
+msgstr "ఎక్కువ వాటా"
+
+msgid "Small Share"
+msgstr "తక్కువ వాటా"
+
+msgid "Circle Icon"
+msgstr "వృత్తం చిహ్నం"
+
+msgid "Square Icon"
+msgstr "చతురస్ర చిహ్నం"
+
+msgid "Show share button at"
+msgstr "దీనిలో భాగస్వామ్య బటన్ చూపు"
+
+msgid "bottom of article"
+msgstr "కథనం దిగువ"
+
+msgid "top of article"
+msgstr "కథనం ఎగువ"
+
+msgid "both bottom and top"
+msgstr "దిగువ మరియు ఎగువ రెండూ"
+
+msgid "Share button language"
+msgstr "భాగస్వామ్య బటన్ భాష"
+

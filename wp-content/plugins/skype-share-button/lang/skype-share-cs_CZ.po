@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Nastavení"
+
+msgid "Skype share button"
+msgstr "Tlačítko Sdílet na Skypu"
+
+msgid "Skype share button options"
+msgstr "Možnosti tlačítka Sdílet na Skypu"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Nabídněte ostatním možnost, díky které budou moct sdílet obsah vašeho webu a povídat si o něm přes Skype. Vymysleli jsme rychlejší a jednodušší způsob, jak můžou ostatní nasdílet obsah z vašeho webu přímo do chatu na Skypu. Snadno se dá na web integrovat a podporované jsou jak desktopové, tak i mobilní weby."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Další informace najdete v <a href=\"%s\" target=\"_blank\">častých otázkách</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Na používání tlačítek Skype se vztahují <a href=\"%s\" target=\"_blank\">podmínky použití</a>."
+
+msgid "Enable share button"
+msgstr "Povolit tlačítko Sdílet"
+
+msgid "Button style"
+msgstr "Styl tlačítka"
+
+msgid "Large Share"
+msgstr "Velké tlačítko Sdílet"
+
+msgid "Small Share"
+msgstr "Malé tlačítko Sdílet"
+
+msgid "Circle Icon"
+msgstr "Kruhová ikona"
+
+msgid "Square Icon"
+msgstr "Čtvercová ikona"
+
+msgid "Show share button at"
+msgstr "Kde se má tlačítko Sdílet zobrazovat"
+
+msgid "bottom of article"
+msgstr "na konci článku"
+
+msgid "top of article"
+msgstr "na začátku článku"
+
+msgid "both bottom and top"
+msgstr "na začátku i na konci"
+
+msgid "Share button language"
+msgstr "Jazyk tlačítka Sdílet"
+

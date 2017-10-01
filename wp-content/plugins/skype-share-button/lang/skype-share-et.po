@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Seaded"
+
+msgid "Skype share button"
+msgstr "Skype'i jagamisnupp"
+
+msgid "Skype share button options"
+msgstr "Skype'i jagamisnupu valikud"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Kas soovid, et inimesed saaksid sinu veebisaiti Skype'is ka teistega jagada ja sellest rääkida? Oleme lisanud võimaluse, mis aitab inimestel kiiresti ja vaevata saata sinu saidi sisu otse Skype'i vestlusse. Selle funktsiooni veebisaidile lisamine on lihtne ja seda saab kasutada nii tava- kui ka mobiilisaitidel."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Uuri lähemalt <a href=\"%s\" target=\"_blank\">KKK-st</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Skype'i nuppude kasutamise kohta kehtivad <a href=\"%s\" target=\"_blank\">kasutustingimused</a>."
+
+msgid "Enable share button"
+msgstr "Luba jagamisnupp"
+
+msgid "Button style"
+msgstr "Nupu laad"
+
+msgid "Large Share"
+msgstr "Suur jagamisnupp"
+
+msgid "Small Share"
+msgstr "Väike jagamisnupp"
+
+msgid "Circle Icon"
+msgstr "Ümmargune ikoon"
+
+msgid "Square Icon"
+msgstr "Nelinurkne koon"
+
+msgid "Show share button at"
+msgstr "Kuva jagamisnupp"
+
+msgid "bottom of article"
+msgstr "artikli lõpus"
+
+msgid "top of article"
+msgstr "artikli alguses"
+
+msgid "both bottom and top"
+msgstr "nii lõpus kui ka alguses"
+
+msgid "Share button language"
+msgstr "Jagamisnupu keel"
+

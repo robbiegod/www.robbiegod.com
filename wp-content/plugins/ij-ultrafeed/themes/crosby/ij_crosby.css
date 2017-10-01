@@ -1,0 +1,13 @@
+/* IJ TWEET THEME | Crosby | Use on white background websites.
+==============================================================================================*/
+div.ijFeed { display: block; padding: 0px 0px 25px 0px; }
+div.ijFeed ul { list-style:none; margin:0px; padding:0px; width:100%; }
+div.ijFeed ul li { display: block; margin: 0px; padding: 0px; padding-top: 30px; padding-bottom: 30px; padding-left: 40px; border: none; background-image: url(images/icon_twitter.png); background-repeat: no-repeat; background-position: 8px 30px; }
+div.ijFeed ul li p.ijText { font-family:Tahoma, Geneva, sans-serif; font-size:11px; color:#999; letter-spacing:1px; line-height:18px; }
+div.ijFeed ul li p.ijDate { display:none; font-family:Tahoma, Geneva, sans-serif; font-size:10px; color:#999; letter-spacing:1px;  }
+div.ijFeed ul li p.ijText a, div.ijFeed ul li.Tweet p.ijText a:link { font-family:Tahoma, Geneva, sans-serif; font-size:11px; color:#999; text-decoration:underline; }
+div.ijFeed ul li p.ijText a:hover { text-decoration:none; }
+
+/* IJ GOGRAMIT THEME | Crosby | Adjust image widths so they fit in the container they are in.
+==============================================================================================*/
+div.ijFeed ul li.Gogramit img { width:100%; height:auto; }

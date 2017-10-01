@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "ڕێکبەندەکان"
+
+msgid "Skype share button"
+msgstr "دوگمەی هاوبەشکردنی Skype"
+
+msgid "Skype share button options"
+msgstr "بەربژارەکانی دوگمەی هاوبەشکردنی Skype"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "وا لەخەڵکی بکە لەسەر Skype وێبسایتەکەت هاوبەش بکەن و لەبارەیەوە بدوێن. ئێمە کاری هاوبەشکردنی ناوەرۆکمان لە سایتەکەتەوە خێراتر و ئاسانتر کردووە بۆ خەڵک، راستەوخۆ بۆ نێو چاتی Skype. کاری تێهەڵکێشان و پشتیوانی هەردووک سایتەکانی دێسکتۆپ و مۆبایڵ ئاسانە."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "زیاتر فێربە، بڕوانە <a href=\"%s\" target=\"_blank\">پرسیاری گشتی</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "بەکارهێنانی دوگمەکانی Skype لەلایەن تۆوە بە گوێرەی <a href=\"%s\" target=\"_blank\">مەرجەکانی بەکارهێنان</a> دەچێت بەڕێوە."
+
+msgid "Enable share button"
+msgstr "چالاککردنی دوگمەی هاوبەشکردن"
+
+msgid "Button style"
+msgstr "ستایڵی دوگمە"
+
+msgid "Large Share"
+msgstr "هاوبەشکردنی گەورە"
+
+msgid "Small Share"
+msgstr "هاوبەشکردنی بچوک"
+
+msgid "Circle Icon"
+msgstr "وێنۆکی بازنە"
+
+msgid "Square Icon"
+msgstr "وێنۆکی چوارگۆشە"
+
+msgid "Show share button at"
+msgstr "پیشاندانی دوگمەی هاوبەشکردن لە"
+
+msgid "bottom of article"
+msgstr "خوارووی بابەت"
+
+msgid "top of article"
+msgstr "سەرووی بابەت"
+
+msgid "both bottom and top"
+msgstr "هەردوو لای خواروو و سەروو"
+
+msgid "Share button language"
+msgstr "هاوبەشکردنی زمانی دوگمە"
+

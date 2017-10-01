@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Iestatījumi"
+
+msgid "Skype share button"
+msgstr "Skype koplietošanas poga"
+
+msgid "Skype share button options"
+msgstr "Skype koplietošanas pogas opcijas"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Ļaujiet personām koplietot jūsu tīmekļa vietni un runāt par to pakalpojumā Skype. Satura koplietošanu personām no jūsu vietnes padarījām ātrāku un vienkāršāku, iekļaujot to tieši Skype tērzēšanā. To ir viegli integrēt, un tā atbalsta gan datoru, gan mobilās vietnes."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Papildinformāciju skatiet sadaļā <a href=\"%s\" target=\"_blank\">Bieži uzdotie jautājumi</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Skype pogas varat izmantot atbilstoši <a href=\"%s\" target=\"_blank\">lietošanas noteikumiem</a>."
+
+msgid "Enable share button"
+msgstr "Iespējot koplietošanas pogu"
+
+msgid "Button style"
+msgstr "Pogas stils"
+
+msgid "Large Share"
+msgstr "Liela koplietošana"
+
+msgid "Small Share"
+msgstr "Maza koplietošana"
+
+msgid "Circle Icon"
+msgstr "Apļa ikona"
+
+msgid "Square Icon"
+msgstr "Kvadrāta ikona"
+
+msgid "Show share button at"
+msgstr "Koplietošanas poga atrodas"
+
+msgid "bottom of article"
+msgstr "raksta lejasdaļā"
+
+msgid "top of article"
+msgstr "raksta augšdaļā"
+
+msgid "both bottom and top"
+msgstr "Gan lejasdaļā, gan augšdaļā"
+
+msgid "Share button language"
+msgstr "Koplietošanas pogas valoda"
+

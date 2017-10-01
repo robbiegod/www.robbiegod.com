@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "設定"
+
+msgid "Skype share button"
+msgstr "Skype 共有ボタン"
+
+msgid "Skype share button options"
+msgstr "Skype 共有ボタンのオプション"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Skype で Web サイトをみんなで共有しておしゃべりしよう。もっと早く簡単に、自分のサイトのコンテンツを Skype チャットで直接共有できるようになりました。PC 用サイトとモバイル用サイトのどちらでも統合、サポートが簡単です。"
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "詳細については <a href=\"%s\" target=\"_blank\">FAQ</a> をご覧ください。"
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Skype ボタンの使用には<a href=\"%s\" target=\"_blank\">利用規約</a>が適用されます。"
+
+msgid "Enable share button"
+msgstr "共有ボタンを有効にする"
+
+msgid "Button style"
+msgstr "ボタンのスタイル"
+
+msgid "Large Share"
+msgstr "共有 (大)"
+
+msgid "Small Share"
+msgstr "共有 (小)"
+
+msgid "Circle Icon"
+msgstr "円アイコン"
+
+msgid "Square Icon"
+msgstr "四角アイコン"
+
+msgid "Show share button at"
+msgstr "共有ボタンの表示場所"
+
+msgid "bottom of article"
+msgstr "記事の下部"
+
+msgid "top of article"
+msgstr "記事の上部"
+
+msgid "both bottom and top"
+msgstr "上部と下部の両方"
+
+msgid "Share button language"
+msgstr "共有ボタンの言語"
+

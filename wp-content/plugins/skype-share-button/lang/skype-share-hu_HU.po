@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Beállítások"
+
+msgid "Skype share button"
+msgstr "Skype-megosztás gomb"
+
+msgid "Skype share button options"
+msgstr "A Skype-megosztás gomb beállításai"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Ösztönözze a látogatóit arra, hogy megosszák webhelyének tartalmát, és másokkal is beszéljenek róla a Skype-on. A felhasználók gyorsabban és egyszerűbben, közvetlenül egy Skype-csevegésben oszthatják meg a webhely tartalmát. A megoldás egyszerűen integrálható, és az asztali és mobil kialakítású webhelyeket is támogatja."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "További információkért tekintse meg a <a href=\"%s\" target=\"_blank\">gyakori kérdéseket</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "A Skype-gombok használatára a <a href=\"%s\" target=\"_blank\">használati feltételek</a> vonatkoznak."
+
+msgid "Enable share button"
+msgstr "Megosztás gomb engedélyezése"
+
+msgid "Button style"
+msgstr "Gomb stílusa"
+
+msgid "Large Share"
+msgstr "Nagy Megosztás"
+
+msgid "Small Share"
+msgstr "Kis Megosztás"
+
+msgid "Circle Icon"
+msgstr "Kör ikon"
+
+msgid "Square Icon"
+msgstr "Négyzet ikon"
+
+msgid "Show share button at"
+msgstr "Megosztás gomb megjelenítési helye"
+
+msgid "bottom of article"
+msgstr "cikkek alján"
+
+msgid "top of article"
+msgstr "cikkek tetején"
+
+msgid "both bottom and top"
+msgstr "alul és felül"
+
+msgid "Share button language"
+msgstr "Megosztás gomb nyelve"
+

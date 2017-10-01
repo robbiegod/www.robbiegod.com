@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Cài đặt"
+
+msgid "Skype share button"
+msgstr "Nút chia sẻ của Skype"
+
+msgid "Skype share button options"
+msgstr "Tùy chọn nút chia sẻ của Skype"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Hãy để mọi người chia sẻ và nói về website của bạn trên Skype. Chúng tôi đã làm cho mọi thứ nhanh hơn và dễ dàng hơn để mọi người chia sẻ nội dung từ site của bạn, đó là chia sẻ ngay vào ngay phần chat trên Skype. Thật dễ dàng tích hợp và hỗ trợ các site trên di động và máy tính."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Tìm hiểu thêm, hãy tham khảo <a href=\"%s\" target=\"_blank\">Câu hỏi thường gặp</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Việc sử dụng các nút Skype của bạn tùy thuộc vào <a href=\"%s\" target=\"_blank\">Điều khoản sử dụng</a>."
+
+msgid "Enable share button"
+msgstr "Bật nút chia sẻ"
+
+msgid "Button style"
+msgstr "Kiểu nút"
+
+msgid "Large Share"
+msgstr "Nút chia sẻ lớn"
+
+msgid "Small Share"
+msgstr "Nút chia sẻ nhỏ"
+
+msgid "Circle Icon"
+msgstr "Biểu tượng vòng tròn"
+
+msgid "Square Icon"
+msgstr "Biểu tượng hình vuông"
+
+msgid "Show share button at"
+msgstr "Hiện nút chia sẻ tại"
+
+msgid "bottom of article"
+msgstr "phần dưới cùng bài viết"
+
+msgid "top of article"
+msgstr "phần trên cùng bài viết"
+
+msgid "both bottom and top"
+msgstr "cả phần dưới cùng và trên cùng"
+
+msgid "Share button language"
+msgstr "Ngôn ngữ của nút chia sẻ"
+

@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Postavke"
+
+msgid "Skype share button"
+msgstr "Gumb za dijeljenje na Skypeu"
+
+msgid "Skype share button options"
+msgstr "Mogućnosti gumba za dijeljenje na Skypeu"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Neka ostali dijele vaše web-mjesto i razgovaraju o njemu na Skypeu. Omogućili smo brže i jednostavnije dijeljenje sadržaja s web-mjesta, izravno u Skypeovo čavrljanje. Jednostavno je integrirati, a podržana su i web-mjesta za računala i web-mjesta za mobilne uređaje."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Dodatne informacije potražite u <a href=\"%s\" target=\"_blank\">najčešćim pitanjima</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Za korištenje Skypeovih gumba vrijede <a href=\"%s\" target=\"_blank\">Uvjeti korištenja</a>."
+
+msgid "Enable share button"
+msgstr "Omogući gumb za dijeljenje"
+
+msgid "Button style"
+msgstr "Stil gumba"
+
+msgid "Large Share"
+msgstr "Veliki gumb za dijeljenje"
+
+msgid "Small Share"
+msgstr "Mali gumb za dijeljenje"
+
+msgid "Circle Icon"
+msgstr "Kružna ikona"
+
+msgid "Square Icon"
+msgstr "Kvadratna ikona"
+
+msgid "Show share button at"
+msgstr "Prikaži gumb za dijeljenje"
+
+msgid "bottom of article"
+msgstr "pri dnu članka"
+
+msgid "top of article"
+msgstr "pri vrhu članka"
+
+msgid "both bottom and top"
+msgstr "pri dnu i vrhu"
+
+msgid "Share button language"
+msgstr "Jezik gumba za dijeljenje"
+

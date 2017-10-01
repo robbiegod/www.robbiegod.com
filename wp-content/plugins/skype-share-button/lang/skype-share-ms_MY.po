@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Seting"
+
+msgid "Skype share button"
+msgstr "Butang kongsi Skype"
+
+msgid "Skype share button options"
+msgstr "Opsyen butang kongsi Skype"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Benarkan orang lain berkongsi dan berbincang tentang laman web anda di Skype. Kami telah mempercepat dan memudahkan cara orang lain boleh berkongsi kandungan daripada laman anda terus kepada sembang Skype. Proses penyepaduan adalah mudah dan ciri ini menyokong laman desktop dan mudah alih."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Untuk mengetahui selanjutnya, sila lihat <a href=\"%s\" target=\"_blank\">FAQ</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Penggunaan butang Skype anda tertakluk kepada <a href=\"%s\" target=\"_blank\">Terma Penggunaan</a>."
+
+msgid "Enable share button"
+msgstr "Dayakan butang kongsi"
+
+msgid "Button style"
+msgstr "Gaya butang"
+
+msgid "Large Share"
+msgstr "Kongsi Besar"
+
+msgid "Small Share"
+msgstr "Kongsi Kecil"
+
+msgid "Circle Icon"
+msgstr "Ikon Bulatan"
+
+msgid "Square Icon"
+msgstr "Ikon Segi Empat"
+
+msgid "Show share button at"
+msgstr "Tunjukkan butang kongsi di"
+
+msgid "bottom of article"
+msgstr "bawah artikel"
+
+msgid "top of article"
+msgstr "atas artikel"
+
+msgid "both bottom and top"
+msgstr "bawah dan atas"
+
+msgid "Share button language"
+msgstr "Bahasa butang kongsi"
+

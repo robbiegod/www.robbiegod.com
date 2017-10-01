@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Nastavenia"
+
+msgid "Skype share button"
+msgstr "Tlačidlo Zdieľať na Skype"
+
+msgid "Skype share button options"
+msgstr "Možnosti tlačidla Zdieľať na Skype"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Chcete, aby ľudia na Skype zdieľali vašu stránku a hovorili o nej. Zjednodušili a zrýchlili sme zdieľanie obsahu vašej lokality priamo v chate cez Skype. Integrácia a podpora počítačových a mobilných lokalít je hračka."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Ďalšie informácie nájdete v <a href=\"%s\" target=\"_blank\">najčastejších otázkach</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Na používanie tlačidiel na Skype sa vzťahujú <a href=\"%s\" target=\"_blank\">podmienky používania</a>."
+
+msgid "Enable share button"
+msgstr "Aktivovať tlačidlo Zdieľať"
+
+msgid "Button style"
+msgstr "Štýl tlačidla"
+
+msgid "Large Share"
+msgstr "Veľké tlačidlo Zdieľať"
+
+msgid "Small Share"
+msgstr "Malé tlačidlo Zdieľať"
+
+msgid "Circle Icon"
+msgstr "Ikona kruhu"
+
+msgid "Square Icon"
+msgstr "Ikona štvorca"
+
+msgid "Show share button at"
+msgstr "Miesto zobrazenia tlačidla Zdieľať"
+
+msgid "bottom of article"
+msgstr "na konci článku"
+
+msgid "top of article"
+msgstr "na začiatku článku"
+
+msgid "both bottom and top"
+msgstr "na začiatku aj na konci"
+
+msgid "Share button language"
+msgstr "Jazyk tlačidla Zdieľať"
+

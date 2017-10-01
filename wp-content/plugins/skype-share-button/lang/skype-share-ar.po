@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "إعدادات"
+
+msgid "Skype share button"
+msgstr "زر مشاركة Skype"
+
+msgid "Skype share button options"
+msgstr "خيارات زر مشاركة Skype"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "شجّع الأشخاص على مشاركة موقعك على ويب والتحدث عنه. لقد جعلنا من الأسرع والأسهل على الأشخاص مشاركة المحتوى من موقعك مباشرة في دردشة Skype‏. من السهل دمج هذه الميزة ويتم دعمها على المواقع التي تفتحها من أجهزة سطح المكتب والأجهزة المحمولة."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "اكتشف المزيد، اطلع على <a href=\"%s\" target=\"_blank\">الأسئلة المتداولة</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "يخضع استخدامك لأزرار Skype لـ <a href=\"%s\" target=\"_blank\">شروط الاستخدام</a>."
+
+msgid "Enable share button"
+msgstr "تمكين زر المشاركة"
+
+msgid "Button style"
+msgstr "نمط الزر"
+
+msgid "Large Share"
+msgstr "مشاركة كبيرة"
+
+msgid "Small Share"
+msgstr "مشاركة صغيرة"
+
+msgid "Circle Icon"
+msgstr "أيقونة دائرية"
+
+msgid "Square Icon"
+msgstr "أيقونة مربعة"
+
+msgid "Show share button at"
+msgstr "عرض زر المشاركة في"
+
+msgid "bottom of article"
+msgstr "أسفل المقالة"
+
+msgid "top of article"
+msgstr "أعلى المقالة"
+
+msgid "both bottom and top"
+msgstr "في الأعلى والأسفل"
+
+msgid "Share button language"
+msgstr "لغة زر المشاركة"
+

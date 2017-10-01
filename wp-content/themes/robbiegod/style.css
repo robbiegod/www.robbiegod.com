@@ -1,0 +1,242 @@
+/*
+Theme Name: Robbiegod
+Theme URI: http://www.robbiegod.com/
+Author: Robert Robbiegod Fletcher
+Author URI: http://www.robbiegod.com/
+Description: The first interation of Robbiegod.com.
+Version: 0.1
+*/
+
+/* Using my custom basic starter theme */
+/* Basic Reset
+-------------------------------------------------------------- */
+* { margin:0px; padding:0px; }
+
+/* SiteWrapper // 100% width
+-------------------------------------------------------------- */
+.sitewrapper { width:100%; }
+
+
+
+/* Container // 960 width // 12 columns max @ 80px wide each
+-------------------------------------------------------------- */
+.container { width: 960px; margin: 0 auto; }
+
+
+/* Basic Border Style
+-------------------------------------------------------------- */
+.border { border:#000 solid 1px; }
+
+
+/* Basic Rows and Columns
+-------------------------------------------------------------- */
+
+.row { clear: both; }
+.col { float:left; }
+
+
+/* Basic Column Widths
+-------------------------------------------------------------- */
+.container .one { width:80px; }
+.container .two { width:160px; }
+.container .three { width:240px; }
+.container .four { width:320px; }
+.container .five { width:400px; }
+.container .six { width:480px; }
+.container .seven { width:560px; }
+.container .eight { width:640px; }
+.container .nine { width:720px; }
+.container .ten { width:800px; }
+.container .eleven { width:880px; }
+.container .twelve { width:960px; }
+
+/* Basic Padding
+-------------------------------------------------------------- */
+.padding-five { padding:5px; }
+.padding-ten { padding:10px; }
+.padding-fifteen { padding:15px; }
+.padding-twenty { padding:20px; }
+
+
+/* Basic Text Block Styles
+-------------------------------------------------------------- */
+h1, h2, h3, h4, h5, p, label, textarea { display:block; }
+
+ul { padding-left: 25px; }
+
+
+/* #Media Queries
+================================================== */
+ 
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+}
+ 
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	  
+/* Wrapper // 768 width // 12 columns max @ 64px wide each
+-------------------------------------------------------------- */
+.container { width: 768px; margin: 0 auto; }
+
+/* Basic Column Widths
+-------------------------------------------------------------- */
+.container .one { width:64px; }
+.container .two { width:128px; }
+.container .three { width:192px; }
+.container .four { width:256px; }
+.container .five { width:320px; }
+.container .six { width:384px; }
+.container .seven { width:448px; }
+.container .eight { width:512px; }
+.container .nine { width:576px; }
+.container .ten { width:640px; }
+.container .eleven { width:704px; }
+.container .twelve { width:768px; }
+
+  
+	  
+}
+ 
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+/* Wrapper // 300 width // all divs stack
+-------------------------------------------------------------- */
+.container { width: 300px; margin: 0 auto; }
+
+.container .one,
+.container .two,
+.container .three,
+.container .four,
+.container .five,
+.container .six,
+.container .seven,
+.container .eight,
+.container .nine,
+.container .ten,
+.container .eleven,
+.container .twelve { width:300px; }
+
+	
+	
+}
+ 
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/* Wrapper // 420 width // 12 columns max @ 35px wide each
+-------------------------------------------------------------- */
+.container { width: 420px; margin: 0 auto; }
+
+.container .one,
+.container .two,
+.container .three,
+.container .four,
+.container .five,
+.container .six,
+.container .seven,
+.container .eight,
+.container .nine,
+.container .ten,
+.container .eleven,
+.container .twelve { width:420px; }
+
+	
+}
+ 
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+
+/* END OF BASIC START THEME */
+
+
+/* Robbiegod Theme v0.2 */
+header div.skip-link { display:none; }
+
+div.header {
+	width:100%;
+	min-height:60px;
+	border-bottom:#333 solid 1px;
+	
+	background: #EA0404;
+background: -moz-linear-gradient(top,  #6d0019 0%, #ea0404 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6d0019), color-stop(100%,#ea0404));
+background: -webkit-linear-gradient(top,  #6d0019 0%,#ea0404 100%);
+background: -o-linear-gradient(top,  #6d0019 0%,#ea0404 100%);
+background: -ms-linear-gradient(top,  #6d0019 0%,#ea0404 100%);
+background: linear-gradient(to bottom,  #6d0019 0%,#ea0404 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', endColorstr='#ea0404',GradientType=0 );
+}
+
+div.header h1 { font-family:Georgia, "Times New Roman", Times, serif; font-size:24px; color: #fefefe; }
+div.header h1 a, div.header h1 a:link { font-family:Georgia, "Times New Roman", Times, serif; font-size:24px; color: #fefefe; }
+
+
+#videowrapper {
+	position:relative;
+	height:160px;
+	clear:both;
+}
+
+#videocover {
+	z-index:100;
+	width:248px; height:140px;
+	position:absolute;
+	top:0;
+	left:0;
+	background-image:url(images/videocover.png);
+	background-repeat:no-repeat;
+}
+
+video.myvideo { position:absolute; z-index:1;}
+
+
+
+
+
+
+/* my twitter box */
+div#twitterbox {
+	padding:30px 0px 30px 0px;
+	height:100%; min-height:100%; height:auto;
+	background-color:#fff;
+}
+
+div#twitterbox h1 { font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333; padding-bottom:10px; border-bottom:#F00 solid 1px; margin-bottom:20px; }
+div#twitterbox h1 a, div#twitterbox h1 a:link { font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#F60; }
+
+div.tweetbox {
+	padding-bottom:14px;
+	border-bottom:#333 dotted 1px;
+	margin-bottom:15px;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666;
+	font-weight:normal;
+}
+
+div.tweetbox a, div.tweetbox a:link {
+	color:#F60;
+}
+
+div.tweetbox a:visited {
+	color:#F00;	
+}
+
+
+
+
+
+footer {
+	clear:both;
+	border-top: #333 solid 3px;
+}
+
+footer p.footer {
+	padding:30px; padding-top:15px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	color:#666;
+}

@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "સેટિંગ્સ"
+
+msgid "Skype share button"
+msgstr "Skype સહિયારું કરો બટન"
+
+msgid "Skype share button options"
+msgstr "Skype સહિયારું કરો બટન વિકલ્પો"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "લોકો પાસે Skype પર તમારી વેબસાઇટ વિશે વાત અને શેર કરાવો. અમે લોકો માટે તમારી સાઇટમાંથી સામગ્રીને સીધેસીધી Skype વાતચીતમાં સહિયારી કરવાનું વધુ સરળ અને ઝડપી બનાવ્યું છે. તેને એકીકૃત કરવું સરળ છે અને મોબાઇલ અને ડેસ્કટોપ બંનેને સપોર્ત કરે છે."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "વધુ જાણો, <a href=\"%s\" target=\"_blank\">વારંવાર પૂછાતા પ્રશ્નો</a> જુઓ."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Skype બટન્સનો તમારો ઉપયોગ <a href=\"%s\" target=\"_blank\">ઉપયોગની શરતોને</a> આધીન છે."
+
+msgid "Enable share button"
+msgstr "સહિયારુ કરો બટન સક્ષમ કરો"
+
+msgid "Button style"
+msgstr "બટન શૈલી"
+
+msgid "Large Share"
+msgstr "મોટો શેર"
+
+msgid "Small Share"
+msgstr "નાનો શેર"
+
+msgid "Circle Icon"
+msgstr "વર્તુળ આઇકોન"
+
+msgid "Square Icon"
+msgstr "ચોરસ આઇકોન"
+
+msgid "Show share button at"
+msgstr "અહીં સહિયારું કરો બટન બતાવો"
+
+msgid "bottom of article"
+msgstr "લેખની નીચે"
+
+msgid "top of article"
+msgstr "લેખની શીર્ષ પર"
+
+msgid "both bottom and top"
+msgstr "નીચે અને શીર્ષ પર બંને"
+
+msgid "Share button language"
+msgstr "સહિયારુ કરો બટનની ભાષા"
+

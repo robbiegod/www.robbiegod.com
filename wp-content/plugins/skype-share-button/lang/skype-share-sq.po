@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Parametrat"
+
+msgid "Skype share button"
+msgstr "Butoni i bashkëndarjes së Skype"
+
+msgid "Skype share button options"
+msgstr "Opsionet e butonit të bashkëndarjes së Skype"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Bëj që të tjerët të bashkëndajnë dhe të flasin për sajtin tënd të uebit në Skype. Ne e kemi bërë më të shpejtë dhe më të lehtë për njerëzit që të bashkëndajnë përmbajtje nga sajti yt, drejtpërdrejt në një bisedë të Skype. Integrimi dhe mbështetja për sajtet në desktop si dhe në celular janë të lehta."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Mëso më shumë, shiko <a href=\"%s\" target=\"_blank\">Pyetjet më të shpeshta</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Përdorimi i butonave të Skype nga ana jote është objekt i <a href=\"%s\" target=\"_blank\">Kushteve të përdorimit</a>."
+
+msgid "Enable share button"
+msgstr "Aktivizo butonin e bashkëndarjes"
+
+msgid "Button style"
+msgstr "Stili i butonit"
+
+msgid "Large Share"
+msgstr "Bashkëndarja e madhe"
+
+msgid "Small Share"
+msgstr "Bashkëndarja e vogël"
+
+msgid "Circle Icon"
+msgstr "Ikona rrethore"
+
+msgid "Square Icon"
+msgstr "Ikona katrore"
+
+msgid "Show share button at"
+msgstr "Shfaq butonin e bashkëndarjes"
+
+msgid "bottom of article"
+msgstr "në fund të artikullit"
+
+msgid "top of article"
+msgstr "në krye të artikullit"
+
+msgid "both bottom and top"
+msgstr "në fund dhe në krye"
+
+msgid "Share button language"
+msgstr "Gjuha e butonit të bashkëndarjes"
+

@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Параметри"
+
+msgid "Skype share button"
+msgstr "Копче за споделување на Skype"
+
+msgid "Skype share button options"
+msgstr "Опции за копчето за споделување на Skype"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Луѓето нека споделуваат и нека зборуваат за вашата веб-локација на Skype. Го направивме начинот на споделување содржина од локацијата директно во муабетот на Skype побрз и полесен. Лесно се интегрира и поддржува десктоп и мобилни страници."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Дознајте повеќе, разгледајте ги <a href=\"%s\" target=\"_blank\">НП</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Користењето на копчињата на Skype подлежи на <a href=\"%s\" target=\"_blank\">условите на користење</a>."
+
+msgid "Enable share button"
+msgstr "Овозможи го копчето за споделување"
+
+msgid "Button style"
+msgstr "Стил на копчето"
+
+msgid "Large Share"
+msgstr "Голема икона"
+
+msgid "Small Share"
+msgstr "Мала икона"
+
+msgid "Circle Icon"
+msgstr "Кружна икона"
+
+msgid "Square Icon"
+msgstr "Квадратна икона"
+
+msgid "Show share button at"
+msgstr "Прикажи го копчето за споделување во"
+
+msgid "bottom of article"
+msgstr "долниот дел од написот"
+
+msgid "top of article"
+msgstr "горниот дел од написот"
+
+msgid "both bottom and top"
+msgstr "долниот и горниот дел"
+
+msgid "Share button language"
+msgstr "Јазик на копчето за споделување"
+

@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Parameteren"
+
+msgid "Skype share button"
+msgstr "Knäppchen \"Deelen\" op Skype"
+
+msgid "Skype share button options"
+msgstr "Optioune vum Knäppchen \"Deelen\" op Skype"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Suergt dofir, dass iwwert Är Websäit op Skype geschwat an se gedeelt gëtt. Et ass elo méiglech, méi séier an einfach Inhalt vun Ärer Websäit direkt an engem Skype-Chat ze deelen. D'Integréieren ass ganz einfach an et gi souwuel Desktop-Websäite wéi mobil Websäiten ënnerstëtzt."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Méi Infoe fannt Dir an den heefeg gestallte Froen <a href=\"%s\" target=\"_blank\">(FAQ)</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "D'Benotzung vu Skype-Knäppercher ënnerläit de <a href=\"%s\" target=\"_blank\">Benotzungsconditiounen</a>."
+
+msgid "Enable share button"
+msgstr "Knäppchen \"Deelen\" aktivéieren"
+
+msgid "Button style"
+msgstr "Stil vum Knäppchen"
+
+msgid "Large Share"
+msgstr "Deelen, grousst Format"
+
+msgid "Small Share"
+msgstr "Deelen, klengt Format"
+
+msgid "Circle Icon"
+msgstr "Kreesfërmeg Ikon"
+
+msgid "Square Icon"
+msgstr "Véiereckeg Ikon"
+
+msgid "Show share button at"
+msgstr "Uweise vum Knäppchen \"Deelen\""
+
+msgid "bottom of article"
+msgstr "ënnen am Artikel"
+
+msgid "top of article"
+msgstr "uewen am Artikel"
+
+msgid "both bottom and top"
+msgstr "ënnen an uewen"
+
+msgid "Share button language"
+msgstr "Sprooch vum Knäppchen \"Deelen\""
+

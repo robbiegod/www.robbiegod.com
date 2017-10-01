@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Roghainnean"
+
+msgid "Skype share button"
+msgstr "Putan Skype a’ cho-roinnidh"
+
+msgid "Skype share button options"
+msgstr "Roghainnean putan Skype a’ cho-roinnidh"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Brosnaich co-roinneadh is deasbad mun làrach-lìn agad air Skype. Tha e nas fhasa a-nis rudan on làrach agad a cho-roinneadh ann an cabadaich Skype. Tha e furasta a chur an sàs ann agus obraichidh e le làraichean desktop agus mobile."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Airson barrachd fiosrachaidh, thoirt sùil air na <a href=\"%s\" target=\"_blank\">CÀBHA</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Tha cleachdadh putanan Skype fo bhuaidh <a href=\"%s\" target=\"_blank\">teirmichean a’ chleachdaidh</a>."
+
+msgid "Enable share button"
+msgstr "Cuir an comas putan a’ cho-roinnidh"
+
+msgid "Button style"
+msgstr "Stoidhle a’ phutain"
+
+msgid "Large Share"
+msgstr "Putan co-roinnidh mòr"
+
+msgid "Small Share"
+msgstr "Putan co-roinnidh beag"
+
+msgid "Circle Icon"
+msgstr "Ìomhaigheag chearcallach"
+
+msgid "Square Icon"
+msgstr "Ìomhaigheag cheàrnagach"
+
+msgid "Show share button at"
+msgstr "Seall putan a’ cho-roinnidh"
+
+msgid "bottom of article"
+msgstr "aig bonn an artaigil"
+
+msgid "top of article"
+msgstr "aig barr an artaigil"
+
+msgid "both bottom and top"
+msgstr "aig a’ bhonn ’s a’ bharr"
+
+msgid "Share button language"
+msgstr "Cànan putan a’ cho-roinnidh"
+

@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Instellingen"
+
+msgid "Skype share button"
+msgstr "Skype-deelknop"
+
+msgid "Skype share button options"
+msgstr "Opties voor Skype-deelknop"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Laat uw website het gesprek van de dag worden op Skype. Het is nu sneller en gemakkelijker om inhoud van uw website te delen in een Skype-chat. Gemakkelijk te integreren en met ondersteuning van zowel desktop- als mobiele sites."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Zie de <a href=\"%s\" target=\"_blank\">veelgestelde vragen</a> voor meer informatie."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Op uw gebruik van Skype-knoppen zijn de <a href=\"%s\" target=\"_blank\">gebruiksvoorwaarden</a> van toepassing."
+
+msgid "Enable share button"
+msgstr "Deelknop inschakelen"
+
+msgid "Button style"
+msgstr "Stijl van de knop"
+
+msgid "Large Share"
+msgstr "Grote deelknop"
+
+msgid "Small Share"
+msgstr "Kleine deelknop"
+
+msgid "Circle Icon"
+msgstr "Cirkelvormig pictogram"
+
+msgid "Square Icon"
+msgstr "Vierkant pictogram"
+
+msgid "Show share button at"
+msgstr "Locatie van de deelknop"
+
+msgid "bottom of article"
+msgstr "onder aan artikel"
+
+msgid "top of article"
+msgstr "boven aan artikel"
+
+msgid "both bottom and top"
+msgstr "onderaan en bovenaan"
+
+msgid "Share button language"
+msgstr "Taal van de deelknop"
+

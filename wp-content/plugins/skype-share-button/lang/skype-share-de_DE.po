@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Skype share button"
+msgstr "Skype-Freigabeschaltfläche"
+
+msgid "Skype share button options"
+msgstr "Optionen für die Skype-Freigabeschaltfläche"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Sorgen Sie dafür, dass auf Skype über Ihre Website gesprochen und sie geteilt wird. Es geht jetzt schneller und einfacher, Inhalte von Ihrer Website direkt in einem Skype-Chat zu teilen. Die Integrierung ist ganz einfach und es werden sowohl Desktop-Websites als auch mobile Websites unterstützt. "
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Weitere Informationen finden Sie in den <a href=\"%s\" target=\"_blank\">häufig gestellten Fragen (FAQ)</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Die Nutzung von Skype-Schaltflächen unterliegt den <a href=\"%s\" target=\"_blank\">Nutzungsbedingungen</a>."
+
+msgid "Enable share button"
+msgstr "Freigabeschaltfläche aktivieren"
+
+msgid "Button style"
+msgstr "Schaltflächenformat"
+
+msgid "Large Share"
+msgstr "Große Freigabeschaltfläche"
+
+msgid "Small Share"
+msgstr "Kleine Freigabeschaltfläche"
+
+msgid "Circle Icon"
+msgstr "Kreissymbol"
+
+msgid "Square Icon"
+msgstr "Quadratisches Symbol"
+
+msgid "Show share button at"
+msgstr "Position der Freigabeschaltfläche"
+
+msgid "bottom of article"
+msgstr "Unten im Artikel"
+
+msgid "top of article"
+msgstr "Oben im Artikel"
+
+msgid "both bottom and top"
+msgstr "Oben und unten"
+
+msgid "Share button language"
+msgstr "Sprache der Freigabeschaltfläche"
+

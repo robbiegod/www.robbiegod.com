@@ -1,0 +1,51 @@
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+msgid "Skype share button"
+msgstr "Κουμπί \"Κοινή χρήση\" στο Skype"
+
+msgid "Skype share button options"
+msgstr "Επιλογές κουμπιού \"Κοινή χρήση\" στο Skype"
+
+msgid "Get people sharing and talking about your website on Skype. We've made it faster and easier for people to share content from your site, straight into a Skype chat. It is easy to integrate and supports both desktop and mobile sites."
+msgstr "Δώστε στους χρήστες τη δυνατότητα να μοιραστούν το περιεχόμενο της τοποθεσίας σας. Οι χρήστες μπορούν πλέον να μοιράζονται πιο εύκολα και γρήγορα περιεχόμενο από την τοποθεσία σας απευθείας σε μια συνομιλία Skype. Είναι εύκολο και μπορεί να χρησιμοποιηθεί τόσο από υπολογιστή όσο και από κινητό."
+
+msgid "Learn more, check out the <a href=\"%s\" target=\"_blank\">FAQ</a>."
+msgstr "Για περισσότερες πληροφορίες, ανατρέξτε στην ενότητα <a href=\"%s\" target=\"_blank\">Συχνές ερωτήσεις</a>."
+
+msgid "Your use of Skype buttons is subject to the <a href=\"%s\" target=\"_blank\">Terms of Use</a>."
+msgstr "Η χρήση των κουμπιών Skype από εσάς υπόκειται στους <a href=\"%s\" target=\"_blank\">Όρους χρήσης</a>."
+
+msgid "Enable share button"
+msgstr "Ενεργοποίηση κουμπιού \"Κοινή χρήση\""
+
+msgid "Button style"
+msgstr "Στυλ κουμπιού"
+
+msgid "Large Share"
+msgstr "Μεγάλου μεγέθους"
+
+msgid "Small Share"
+msgstr "Μικρού μεγέθους"
+
+msgid "Circle Icon"
+msgstr "Κυκλικό εικονίδιο"
+
+msgid "Square Icon"
+msgstr "Τετράγωνο εικονίδιο"
+
+msgid "Show share button at"
+msgstr "Εμφάνιση κουμπιού \"Κοινή χρήση\""
+
+msgid "bottom of article"
+msgstr "στο κάτω μέρος του άρθρου"
+
+msgid "top of article"
+msgstr "στο επάνω μέρος του άρθρου"
+
+msgid "both bottom and top"
+msgstr "στο κάτω και επάνω μέρος"
+
+msgid "Share button language"
+msgstr "Γλώσσα κουμπιού \"Κοινή χρήση\""
+
